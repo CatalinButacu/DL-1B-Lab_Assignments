@@ -1,0 +1,154 @@
+DL - LAB 10
+Analysis of the obtained results
+
+Task 1: (traditional augmentation techniques)
+> Original experiment training progress:
+
+> Console output:
+Epoch 1, Loss: 2.1704, Train Acc: 0.179, Val Acc: 0.231
+Epoch 2, Loss: 1.9907, Train Acc: 0.261, Val Acc: 0.270
+Epoch 3, Loss: 1.8863, Train Acc: 0.291, Val Acc: 0.300
+Epoch 4, Loss: 1.8247, Train Acc: 0.320, Val Acc: 0.344
+Epoch 5, Loss: 1.7476, Train Acc: 0.352, Val Acc: 0.360
+Epoch 6, Loss: 1.7429, Train Acc: 0.355, Val Acc: 0.381
+Epoch 7, Loss: 1.7046, Train Acc: 0.381, Val Acc: 0.381
+Epoch 8, Loss: 1.6635, Train Acc: 0.383, Val Acc: 0.365
+Epoch 9, Loss: 1.6475, Train Acc: 0.387, Val Acc: 0.392
+Epoch 10, Loss: 1.6121, Train Acc: 0.398, Val Acc: 0.402
+Final Acc: 0.402
+
+> Experiment with Random horizontal flipping
+
+> Console output:
+Epoch 1, Loss: 2.1683, Train Acc: 0.179, Val Acc: 0.229
+Epoch 2, Loss: 1.9901, Train Acc: 0.252, Val Acc: 0.299
+Epoch 3, Loss: 1.8733, Train Acc: 0.300, Val Acc: 0.347
+Epoch 4, Loss: 1.8025, Train Acc: 0.328, Val Acc: 0.329
+Epoch 5, Loss: 1.7529, Train Acc: 0.352, Val Acc: 0.357
+Epoch 6, Loss: 1.7044, Train Acc: 0.362, Val Acc: 0.368
+Epoch 7, Loss: 1.6773, Train Acc: 0.368, Val Acc: 0.393
+Epoch 8, Loss: 1.6504, Train Acc: 0.394, Val Acc: 0.394
+Epoch 9, Loss: 1.6376, Train Acc: 0.387, Val Acc: 0.413
+Epoch 10, Loss: 1.6488, Train Acc: 0.393, Val Acc: 0.431
+Final Acc: 0.431
+
+> Experiment with Random rotations
+
+> Console output:
+Epoch 1, Loss: 2.1791, Train Acc: 0.173, Val Acc: 0.231
+Epoch 2, Loss: 2.0204, Train Acc: 0.243, Val Acc: 0.271
+Epoch 3, Loss: 1.9237, Train Acc: 0.285, Val Acc: 0.338
+Epoch 4, Loss: 1.8603, Train Acc: 0.312, Val Acc: 0.316
+Epoch 5, Loss: 1.8111, Train Acc: 0.327, Val Acc: 0.360
+Epoch 6, Loss: 1.7485, Train Acc: 0.345, Val Acc: 0.355
+Epoch 7, Loss: 1.7342, Train Acc: 0.342, Val Acc: 0.372
+Epoch 8, Loss: 1.6950, Train Acc: 0.376, Val Acc: 0.379
+Epoch 9, Loss: 1.6840, Train Acc: 0.372, Val Acc: 0.390
+Epoch 10, Loss: 1.6893, Train Acc: 0.382, Val Acc: 0.421
+Final Acc: 0.421
+
+
+> Experiment with Random cropping
+
+> Console output:
+Epoch 1, Loss: 2.1905, Train Acc: 0.171, Val Acc: 0.220
+Epoch 2, Loss: 2.0429, Train Acc: 0.236, Val Acc: 0.236
+Epoch 3, Loss: 1.9632, Train Acc: 0.254, Val Acc: 0.256
+Epoch 4, Loss: 1.8987, Train Acc: 0.279, Val Acc: 0.283
+Epoch 5, Loss: 1.8620, Train Acc: 0.307, Val Acc: 0.318
+Epoch 6, Loss: 1.8085, Train Acc: 0.312, Val Acc: 0.295
+Epoch 7, Loss: 1.7780, Train Acc: 0.336, Val Acc: 0.332
+Epoch 8, Loss: 1.7565, Train Acc: 0.340, Val Acc: 0.337
+Epoch 9, Loss: 1.7262, Train Acc: 0.352, Val Acc: 0.348
+Epoch 10, Loss: 1.7104, Train Acc: 0.354, Val Acc: 0.360
+Final Acc: 0.360
+
+
+> Experiment with Color jittering
+
+> Console output:
+Epoch 1, Loss: 2.1751, Train Acc: 0.175, Val Acc: 0.207
+Epoch 2, Loss: 2.0115, Train Acc: 0.240, Val Acc: 0.266
+Epoch 3, Loss: 1.9142, Train Acc: 0.286, Val Acc: 0.332
+Epoch 4, Loss: 1.8516, Train Acc: 0.313, Val Acc: 0.338
+Epoch 5, Loss: 1.7752, Train Acc: 0.339, Val Acc: 0.339
+Epoch 6, Loss: 1.7271, Train Acc: 0.356, Val Acc: 0.341
+Epoch 7, Loss: 1.7357, Train Acc: 0.350, Val Acc: 0.397
+Epoch 8, Loss: 1.6789, Train Acc: 0.381, Val Acc: 0.408
+Epoch 9, Loss: 1.6478, Train Acc: 0.393, Val Acc: 0.388
+Epoch 10, Loss: 1.6432, Train Acc: 0.404, Val Acc: 0.429
+Acc: 0.429
+
+
+
+> Experiment with All techniques combined
+
+> Console output: 
+Epoch 1, Loss: 2.2008, Train Acc: 0.168, Val Acc: 0.218
+Epoch 2, Loss: 2.0595, Train Acc: 0.218, Val Acc: 0.246
+Epoch 3, Loss: 2.0040, Train Acc: 0.243, Val Acc: 0.268
+Epoch 4, Loss: 1.9653, Train Acc: 0.268, Val Acc: 0.304
+Epoch 5, Loss: 1.8954, Train Acc: 0.295, Val Acc: 0.294
+Epoch 6, Loss: 1.8603, Train Acc: 0.303, Val Acc: 0.281
+Epoch 7, Loss: 1.8456, Train Acc: 0.317, Val Acc: 0.347
+Epoch 8, Loss: 1.8005, Train Acc: 0.328, Val Acc: 0.362
+Epoch 9, Loss: 1.7689, Train Acc: 0.335, Val Acc: 0.353
+Epoch 10, Loss: 1.7577, Train Acc: 0.339, Val Acc: 0.367
+Final Acc: 0.367
+
+
+
+
+Task 2: (MixUp and CutMix augmentation strategies)
+> MixUp Strategy
+
+Epoch 1, Loss: 2.2441, Train Acc: 0.152, Val Acc: 0.210
+Epoch 2, Loss: 2.1736, Train Acc: 0.181, Val Acc: 0.241
+Epoch 3, Loss: 2.1444, Train Acc: 0.200, Val Acc: 0.230
+Epoch 4, Loss: 2.1359, Train Acc: 0.207, Val Acc: 0.260
+Epoch 5, Loss: 2.0996, Train Acc: 0.230, Val Acc: 0.290
+Epoch 6, Loss: 2.0887, Train Acc: 0.240, Val Acc: 0.257
+Epoch 7, Loss: 2.0635, Train Acc: 0.237, Val Acc: 0.325
+Epoch 8, Loss: 2.0509, Train Acc: 0.239, Val Acc: 0.303
+Epoch 9, Loss: 2.0232, Train Acc: 0.256, Val Acc: 0.351
+Epoch 10, Loss: 2.0061, Train Acc: 0.265, Val Acc: 0.345
+Final Acc: 0.345
+
+
+> CutMix Strategy
+
+Epoch 1, Loss: 2.2549, Train Acc: 0.144, Val Acc: 0.185
+Epoch 2, Loss: 2.1753, Train Acc: 0.178, Val Acc: 0.241
+Epoch 2, Loss: 2.1753, Train Acc: 0.178, Val Acc: 0.241
+Epoch 3, Loss: 2.1623, Train Acc: 0.194, Val Acc: 0.252
+Epoch 4, Loss: 2.1291, Train Acc: 0.206, Val Acc: 0.273
+Epoch 5, Loss: 2.1146, Train Acc: 0.220, Val Acc: 0.259
+Epoch 6, Loss: 2.1013, Train Acc: 0.222, Val Acc: 0.241
+Epoch 7, Loss: 2.0724, Train Acc: 0.224, Val Acc: 0.282
+Epoch 8, Loss: 2.0604, Train Acc: 0.233, Val Acc: 0.269
+Epoch 9, Loss: 2.0666, Train Acc: 0.235, Val Acc: 0.296
+Epoch 10, Loss: 2.0644, Train Acc: 0.232, Val Acc: 0.329
+Final Acc: 0.329
+
+
+> Both strategies (50-50 probability)
+
+
+Epoch 1, Loss: 2.2481, Train Acc: 0.146, Val Acc: 0.198
+Epoch 2, Loss: 2.1708, Train Acc: 0.176, Val Acc: 0.235
+Epoch 3, Loss: 2.1730, Train Acc: 0.190, Val Acc: 0.244
+Epoch 4, Loss: 2.1335, Train Acc: 0.205, Val Acc: 0.259
+Epoch 5, Loss: 2.1202, Train Acc: 0.214, Val Acc: 0.284
+Epoch 6, Loss: 2.1002, Train Acc: 0.220, Val Acc: 0.236
+Epoch 7, Loss: 2.1032, Train Acc: 0.215, Val Acc: 0.298
+Epoch 8, Loss: 2.0656, Train Acc: 0.235, Val Acc: 0.271
+Epoch 9, Loss: 2.0687, Train Acc: 0.240, Val Acc: 0.307
+Epoch 10, Loss: 2.0584, Train Acc: 0.239, Val Acc: 0.335
+Acc: 0.335
+
+
+
+
+Task 3: (Conclusions on model convergence&accuracy.using different strategies)
+
+
